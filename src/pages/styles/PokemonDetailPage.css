@@ -1,0 +1,416 @@
+.container__Pokedetail {
+  width: 89%;
+  box-shadow: 0 5px 12px rgba(97, 95, 95, 0.568);
+  padding: 1em 1em;
+  border-radius: 0.6em;
+  margin: 5em auto 2em auto;
+}
+
+.container__name {
+  display: flex;
+  justify-content: space-between; /* Distribuir los elementos horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.container__name hr {
+  height: 1px;
+  background-color: rgb(138, 133, 133);
+  flex-grow: 1; /* Para que ocupen el espacio disponible */
+}
+
+.container__details {
+  display: flex;
+  justify-content: center;
+}
+
+.container__peso,
+.container__altura {
+  text-align: center;
+  margin: 1em 2em 2em 2em;
+}
+
+.container__peso h3,
+.container__altura h3 {
+  font-size: 0.7em;
+}
+
+.container_characteristics {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto 0 auto;
+}
+
+.container__type,
+.container__ability {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container__type h2,
+.container__ability h2 {
+  font-size: 1em;
+}
+
+.type__content,
+.ability__content {
+  display: flex;
+  margin: 1em 1.5em 1em 1.5em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.type__content div {
+  display: flex;
+  margin: 1em 0.3em 1em 0.3em;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2em;
+  box-shadow: 0 5px 12px rgba(97, 95, 95, 0.568);
+}
+
+.ability__content div {
+  display: flex;
+  margin: 1em 0.3em 1em 0.3em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2em;
+  border: solid 1px rgba(109, 106, 106, 0.167);
+  box-shadow: 0 5px 12px rgba(97, 95, 95, 0.568);
+}
+.pokemon__name {
+  text-transform: capitalize;
+  margin: 0 1em 0 1em;
+}
+
+.barra-progreso-container {
+  width: 95%; /* Ancho completo del contenedor */
+  height: 20px; /* Altura de la barra de progreso */
+  background-color: #f0f0f0; /* Color de fondo */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-top: 5px; /* Espacio superior */
+}
+
+.barra-progreso {
+  height: 100%; /* Altura total de la barra de progreso */
+  background-color: #f96d6f; /* Color de la barra de progreso */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: width 0.5s ease-in-out; /* Animación de transición */
+}
+
+.card__header__pokedetail {
+  width: 100%;
+  aspect-ratio: 20 / 3;
+  position: relative;
+  border-radius: 0.4em;
+}
+.img__pokedetaiol {
+  position: absolute;
+  width: 20%;
+  top: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.type__content div {
+  width: 8em;
+  height: 2em;
+}
+
+.ability__content div {
+  width: 8em;
+  height: 2em;
+}
+
+.container__stat {
+  display: flex;
+  align-items: center; /* Para alinear verticalmente los elementos */
+}
+
+.container__stat h2 {
+  flex-grow: 0; /* Para que el h2 ocupe todo el espacio disponible */
+  margin: 0 1em 0 0;
+}
+
+.container__stat hr {
+  margin: 0 0; /* Margen para separar el hr del h2 */
+  flex-grow: 1;
+}
+
+.container__stat img {
+  width: 5em;
+  margin: 0 0;
+}
+
+.list__movements {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list__movements li {
+  margin: 0.5em 0.5em;
+  border: solid 1px rgba(74, 74, 78, 0.474);
+  padding: 0.5em 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 0 5px 12px rgba(97, 95, 95, 0.568);
+  text-transform: capitalize;
+}
+
+.stat__title {
+  color: grey;
+  font-weight: 500;
+}
+
+.container__datagrafics {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin-top: .5em;
+}
+
+.bg-water {
+  background: linear-gradient(
+    179.57deg,
+    #133258 -70.14%,
+    #1479fb 56.16%,
+    #82b2f1 214.85%
+  );
+}
+.bg-grass {
+  background: linear-gradient(
+    178.92deg,
+    #7ec6c5 0.92%,
+    #abdac6 47.96%,
+    #cae099 99.08%
+  );
+}
+.bg-normal {
+  background: linear-gradient(
+    181.51deg,
+    #735259 -6.44%,
+    #bc6b7c 121.95%,
+    #7c3f4c 186.11%
+  );
+}
+.bg-fighting {
+  background: linear-gradient(
+    176.83deg,
+    #96402a -8.78%,
+    #f1613c 169.09%,
+    #cb735d 242.33%
+  );
+}
+.bg-flying {
+  background: linear-gradient(
+    176.37deg,
+    #f96d6f -32.26%,
+    #e35825 22.55%,
+    #e8ae1b 125.72%
+  );
+}
+.bg-poison {
+  background: linear-gradient(
+    177.03deg,
+    #5b3184 -11.97%,
+    #a564e3 71.28%,
+    #ce9bff 135.64%
+  );
+}
+.bg-ground {
+  background: linear-gradient(
+    179.75deg,
+    #654008 -19.96%,
+    #895c1a 43.67%,
+    #d69638 138.4%
+  );
+}
+.bg-rock {
+  background: linear-gradient(
+    177.03deg,
+    #7e7e7e -11.97%,
+    #8d8d94 57.49%,
+    #d3d3d3 135.64%
+  );
+}
+.bg-bug {
+  background: linear-gradient(
+    177.56deg,
+    #62db60 -58.92%,
+    #3bb039 16.57%,
+    #aaffa8 209.53%
+  );
+}
+.bg-ghost {
+  background: linear-gradient(
+    177.03deg,
+    #323569 -11.97%,
+    #454aa8 57.49%,
+    #787dda 135.64%
+  );
+}
+.bg-steel {
+  background: linear-gradient(
+    179.75deg,
+    #5e736c -19.96%,
+    #728881 43.67%,
+    #a8a8a8 138.4%
+  );
+}
+.bg-electric {
+  background: linear-gradient(
+    179.75deg,
+    #0c1395 -19.96%,
+    #2b319b 43.67%,
+    #7075d9 138.4%
+  );
+}
+.bg-water {
+  background: linear-gradient(
+    179.57deg,
+    #133258 -70.14%,
+    #1479fb 56.16%,
+    #82b2f1 214.85%
+  );
+}
+.bg-fire {
+  background: linear-gradient(
+    176.37deg,
+    #f96d6f -32.26%,
+    #e35825 22.55%,
+    #e8ae1b 125.72%
+  );
+}
+.bg-grass {
+  background: linear-gradient(
+    178.92deg,
+    #7ec6c5 0.92%,
+    #abdac6 47.96%,
+    #cae099 99.08%
+  );
+}
+.bg-psychic {
+  background: linear-gradient(
+    179.75deg,
+    #5e736c -19.96%,
+    #728881 43.67%,
+    #a8a8a8 138.4%
+  );
+}
+.bg-ice {
+  background: linear-gradient(
+    177.03deg,
+    #6fbedf -11.97%,
+    #64cbf5 47.77%,
+    #bdebfe 136.72%
+  );
+}
+.bg-dragon {
+  background: linear-gradient(
+    179.75deg,
+    #478a93 -19.96%,
+    #56a4ae 43.67%,
+    #a2bec1 138.4%
+  );
+}
+.bg-dark {
+  background: linear-gradient(
+    177.03deg,
+    #030706 -11.97%,
+    #0d1211 57.49%,
+    #5a5e5d 135.64%
+  );
+}
+.bg-fairy {
+  background: linear-gradient(
+    179.75deg,
+    #971b45 -19.96%,
+    #c23867 43.67%,
+    #cd7d98 138.4%
+  );
+}
+.bg-unknown {
+  background: linear-gradient(
+    177.03deg,
+    #172a25 -11.97%,
+    #242a29 57.49%,
+    #c2c3c3 135.64%
+  );
+}
+.bg-shadow {
+  background: linear-gradient(
+    177.03deg,
+    #030706 -11.97%,
+    #0d1211 57.49%,
+    #5a5e5d 135.64%
+  );
+}
+
+.color-water {
+  background-color: #1479fb;
+}
+.color-grass {
+  background-color: #abdac6;
+}
+.color-normal {
+  background-color: #bc6b7c;
+}
+.color-fighting {
+  background-color: #f1613c;
+}
+.color-flying {
+  background-color: #e35825;
+}
+.color-poison {
+  background-color: #a564e3;
+}
+.color-ground {
+  background-color: #895c1a;
+}
+.color-rock {
+  background-color: #8d8d94;
+}
+.color-bug {
+  background-color: #3bb039;
+}
+.color-ghost {
+  background-color: #454aa8;
+}
+.color-steel {
+  background-color: #728881;
+}
+.color-electric {
+  background-color: #2b319b;
+}
+.color-water {
+  background-color: #1479fb;
+}
+.color-fire {
+  background-color: #e35825;
+}
+.color-grass {
+  background-color: #abdac6;
+}
+.color-psychic {
+  background-color: #728881;
+}
+.color-ice {
+  background-color: #64cbf5;
+}
+.color-dragon {
+  background-color: #56a4ae;
+}
+.color-dark {
+  background-color: #0d1211;
+}
+.color-fairy {
+  background-color: #c23867;
+}
+.color-unknown {
+  background-color: #242a29;
+}
+.color-shadow {
+  background-color: #0d1211;
+}

@@ -1,0 +1,36 @@
+.greeting {
+  display: flex;
+  margin: 2em 0 2em;
+}
+.greeting .greeting-text {
+  color: rgb(205, 48, 48);
+  font-weight: 800;
+}
+.greeting .greeting-text .greetin_text_span {
+  color: black;
+  font-weight: normal;
+}
+.search__input {
+    --size-input: 10px 20px;
+padding: var(--size-input);
+border: none;
+box-shadow: .4em .8em 1em rgba(53, 51, 51, 0.127);
+}
+.button__search{
+padding: 10px ;
+border: none;
+background-color: rgb(221, 47, 47);
+color: wheat;
+font-weight: 800;
+border-radius: 0 .5em .5em 0 ;
+}
+.button__search:active{
+    transform: scale(.95);
+}
+.search-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1.5em;
+    column-gap: 2em;
+}
+

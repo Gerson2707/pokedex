@@ -1,0 +1,16 @@
+.input__HomePage{
+    --size-input: 10px 20px;
+padding: var(--size-input);
+border: none;
+box-shadow: 0 0 .6em rgba(29, 27, 27, 0.127);
+text-transform: capitalize;
+border-radius: .6em 0 0 .6em;
+}
+.button__HomePage{
+    padding: 10px ;
+    border: none;
+    background-color: rgb(221, 47, 47);
+    color: wheat;
+    font-weight: 800;
+    border-radius: 0 .5em .5em 0 ;
+}

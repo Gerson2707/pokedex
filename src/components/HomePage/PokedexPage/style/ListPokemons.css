@@ -1,0 +1,47 @@
+.list-pokemons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14em, 1fr)); /* Las cards tendrán un ancho mínimo de 250px y se ajustarán automáticamente */
+    gap: 1em; /* gap es una propiedad abreviada para row-gap y column-gap */
+    justify-content: center;
+    padding: 3em 3em 1em;
+   
+}
+
+
+.pagination .page-item.active button {
+    background-color: red;
+    color: white;
+  }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    column-gap: .2em;
+}
+
+.btn__Page{
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    border: solid .3px blue;
+    font-weight: 700;
+}
+
+.btn__Change{
+    height: 3em;
+    width: 4.8em;
+    border: none;
+    border-radius: .6em;
+    font-weight: 600;
+}
+.btn__Change.inactive {
+    background-color: rgb(231, 145, 145);
+    color: white;
+}
+
+.btn__Change.active {
+    background-color: red;
+    color: white;
+}
