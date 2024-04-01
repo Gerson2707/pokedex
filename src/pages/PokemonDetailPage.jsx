@@ -57,7 +57,7 @@ const PokemonDetailPage = () => {
             <h2>Tipo</h2>
             <div className="type__content ">
               {pokemon?.types.map((type) => (
-                <div key={type.type.url} className={`color-${type.type.name}`}>
+                <div key={type.type.url} className={`color-${type.type.name}-type`}>
                   {type.type.name.toUpperCase()}
                 </div>
               ))}
